@@ -17,6 +17,10 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+h4 {
+  margin: 1rem 0;
+}
+
 ul {
   list-style-type: none;
 }
@@ -91,10 +95,6 @@ nav a {
   padding: 2rem 0;
 }
 
-.card h3 {
-  margin: 1rem 0;
-}
-
 .card-img-holder {
   width: 60%;
   height: auto;
@@ -116,6 +116,14 @@ nav a {
 
 .card-dark {
   background-color: #D3D3D3;
+}
+
+.card-medium {
+  background-color: #E8E8E8;
+}
+
+.card-light {
+  background-color: #F5F5F5;
 }
 
 .button {
