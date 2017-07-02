@@ -49,6 +49,33 @@ a {
   padding-top: 4rem; /* To offset for fixed header. */
 }
 
+.bg-dark {
+  background-color: #D3D3D3;
+}
+
+.bg-medium {
+  background-color: #E8E8E8;
+}
+
+.bg-light {
+  background-color: #F5F5F5;
+}
+
+.stack {
+  flex-direction: column;
+}
+
+.width80{
+  width:80%;
+}
+
+.width60{
+  width:60%;
+}
+
+.quote {
+
+}
 /* Header*/
 
 header.flex-container {
@@ -88,25 +115,31 @@ nav a {
   color: #333;
 }
 
-/* Sections */
+/* Cards */
 
-.card {
+.section {
   display: flex;
   padding: 2rem 0;
 }
 
-.card-img-holder {
-  width: 60%;
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 100%;
   height: auto;
   margin: 0 1.5rem;
 }
 
-.card-img-holder img {
+.img-container img {
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 
-.card-info-holder {
+.info {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -114,30 +147,14 @@ nav a {
   width: 27rem;
 }
 
-.card-dark {
-  background-color: #D3D3D3;
-}
-
-.card-medium {
-  background-color: #E8E8E8;
-}
-
-.card-light {
-  background-color: #F5F5F5;
-}
-
 .button {
     display: block;
-    background: #333;
+    background-color: #333;
     padding: .5rem;
     text-align: center;
     color: white;
     font-weight: bold;
     margin: 1.5rem 0;
-}
-
-.banner-limit {
-  width: 80%
 }
 
 /* Footer */
