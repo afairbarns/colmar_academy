@@ -149,10 +149,14 @@ video {
   max-width: 100%;
 }
 
-
+#thesis
 .quote {
   font-style: italic;
   margin: 1.5rem 0;
+}
+
+#thesis .info, #information .info {
+  margin-left: 1.5rem;
 }
 /* Banner */
 
