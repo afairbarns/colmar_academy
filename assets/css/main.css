@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Roboto", "Helvetica", sans-serif;
   color: #D3D3D3;
-  background-color: white;
+  background-color: #F5F5F5;
   margin: 0px;
   text-align: left;
 }
@@ -15,10 +15,6 @@ body {
 h1, h2, h3, h4 {
   color: #333;
   font-weight: bold;
-}
-
-h4 {
-  margin: 1rem 0;
 }
 
 ul {
@@ -35,18 +31,8 @@ a {
   color: #D3D3D3;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .mobile-only {
   display: none;
-}
-
-.main-content {
-  position: relative;
-  padding-top: 4rem; /* To offset for fixed header. */
 }
 
 .bg-dark {
@@ -57,32 +43,11 @@ a {
   background-color: #E8E8E8;
 }
 
-.bg-light {
-  background-color: #F5F5F5;
-}
-
-.stack {
-  flex-direction: column;
-}
-
-.width80{
-  width:80%;
-}
-
-.width60{
-  width:60%;
-}
-
-.quote {
-
-}
-/* Header*/
-
-header.flex-container {
-  justify-content: center;
-}
-
+/* Header */
 header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   height: 4rem;
   width: 100%;
   position: fixed;
@@ -115,77 +80,40 @@ nav a {
   color: #333;
 }
 
-/* Cards */
+/* Main Content */
+
+.main-content {
+  position: relative;
+  padding-top: 4rem; /* To offset for fixed header. */
+}
 
 .section {
   display: flex;
-  padding: 2rem 0;
-}
-
-.card {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img-container {
-  width: 100%;
-  height: auto;
-  margin: 0 1.5rem;
 }
 
 .img-container img {
-  width: 100%;
-  height: auto;
+  display: block;
+  max-width: 100%;
   overflow: hidden;
 }
 
-.info {
+/* Banner */
+
+#banner .img-container {
+  max-width: 60%;
+  min-width: 60%;
+  height: auto;
+}
+
+/* Cards */
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.stack {
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-left: 1rem;
-  width: 27rem;
-}
-
-.button {
-    display: block;
-    background-color: #333;
-    padding: .5rem;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin: 1.5rem 0;
-}
-
-/* Footer */
-footer {
-  background-color: white;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  overflow:hidden;
-  font-size: 0.75rem;
-  align-items: baseline;
-  align-content: baseline;
-  border-top: 1px solid grey;
-  color: #D3D3D3;
-}
-
-footer ul {
-  flex-grow: 1;
-  text-align: right;
-}
-
-.copyright {
-  margin-left: 1.5rem;
-}
-
-@media only screen and (max-width: 480px) {
-
-  /* Mobile */
-
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -212,12 +140,5 @@ footer ul {
   }
 
   /* Cards */
-  .card-info-holder {
-    width: 100%;
-    margin-right: 1rem;
-  }
 
-  .banner-limit {
-    width: 100%;
-  }
 }
