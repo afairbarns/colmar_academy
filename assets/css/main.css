@@ -89,15 +89,24 @@ nav a {
 }
 
 .info {
+  display: block;
+  justify-content: center;
   margin: 1rem;
+  vertical-align: middle;
 }
-
+#banner {
+  align-items: center;
+}
 .button {
   background-color: #333;
   text-align: center;
   padding: 1rem 0;
   min-width: 100%;
-  margin: 1rem 0;
+  margin: .5rem 0;
+}
+
+#banner h4 {
+  margin: 1.5rem 0;
 }
 #information h1 {
   margin-bottom: 1.5rem;
@@ -120,6 +129,10 @@ nav a {
   overflow: hidden;
 }
 
+.quote {
+  font-style: italic;
+  margin: 1.5rem 0;
+}
 /* Banner */
 
 #banner .img-container {
@@ -253,4 +266,7 @@ footer {
     justify-content: center;
   }
 
+  #banner  {
+    align-items: baseline;
+  }
 }
