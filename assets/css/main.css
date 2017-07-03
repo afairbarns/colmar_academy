@@ -99,6 +99,10 @@ nav a {
   padding-top: 4rem; /* To offset for fixed header. */
 }
 
+#learn h1, #thesis h1{
+  text-align: center;
+}
+
 .info {
   display: block;
   justify-content: center;
@@ -190,6 +194,8 @@ nav a {
   margin: 2rem 1rem;
 }
 
+
+
 .card-grid .img-container {
   margin: 0;
 }
@@ -277,7 +283,7 @@ footer {
 
   #learn .card-grid {
     display:block;
-    background-color: #D3D3D3;
+
   }
 
   /* Banner */
@@ -292,5 +298,13 @@ footer {
 
   #banner  {
     align-items: baseline;
+  }
+
+  .card-grid .card{
+    margin: .5rem 0;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: #D3D3D3;
+    
   }
 }
