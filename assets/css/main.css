@@ -100,7 +100,7 @@ nav a {
 
 /* Banner */
 
-.img-container {
+#banner .img-container {
   max-width: 60%;
   min-width: 60%;
   height: auto;
@@ -187,6 +187,22 @@ footer {
     flex-direction: column;
   }
 
+  .card-stack .card {
+    display:block;
+    height: auto;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .card-stack .img-container {
+    max-width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    height: auto;
+  }
+
   /* Banner */
 
   #banner .img-container {
@@ -195,6 +211,12 @@ footer {
     height: 11.25rem;
     overflow: hidden;
     justify-content: center;
+  }
+
+  /* Information */
+
+  #information {
+
   }
 
 }
