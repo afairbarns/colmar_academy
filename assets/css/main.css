@@ -140,6 +140,12 @@ nav a {
   max-width: 30%;
 }
 
+.card-grid .img {
+  display: block;
+  max-width: 100%;
+
+}
+
 .stack {
   flex-direction: column;
 }
