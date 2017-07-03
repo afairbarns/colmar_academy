@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    charset="utf-8"/>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Welcome to Colmar Academy</title>
@@ -81,9 +82,9 @@
         </div>
 
         <!--Information Cards -->
-        <div class="">
+        <div class="card-stack">
 
-          <div class="">
+          <div class="card">
             <div class="img-container">
               <img alt=""
               src="./assets/img/information-orientation.jpg">
@@ -95,7 +96,7 @@
             </div>
           </div>
 
-          <div class="">
+          <div class="card">
             <div class="img-container">
               <img alt=""
               src="./assets/img/information-campus.jpg">
@@ -107,7 +108,7 @@
             </div>
           </div>
 
-          <div class="">
+          <div class="card">
             <div class="img-container">
               <img alt=""
               src="./assets/img/information-guest-lecture.jpg">
@@ -128,16 +129,16 @@
       <div id="learn" class="section stack bg-medium">
 
         <h1>Start learning</h1>
-        <div class="">
+        <div class="card-grid">
 
-          <div class="">
+          <div class="card">
             <h4>Software engineering</h4>
             <img src="./assets/img/course-software.jpg" alt="">
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
 
-          <div class="">
+          <div class="card">
             <h4>Computer art</h4>
             <img src="./assets/img/course-computer-art.jpg" alt="">
             <p>COURSES</p>
@@ -145,28 +146,28 @@
             , Computer Animation</p>
           </div>
 
-          <div class="">
+          <div class="card">
             <h4>Design</h4>
             <img src="./assets/img/course-design.jpg" alt="">
             <p>COURSES</p>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
 
-          <div class="">
+          <div class="card">
             <h4>Data</h4>
             <img src="./assets/img/course-data.jpg" alt="">
             <p>COURSES</p>
             <p>Data Sciene, Big Data, SQL, Data Visualization</p>
           </div>
 
-          <div class="">
+          <div class="card">
             <h4>Business</h4>
             <img src="./assets/img/course-business.jpg" alt="">
             <p>COURSES</p>
             <p>Product Development, Business Development, Startup</p>
           </div>
 
-          <div class="">
+          <div class="card">
             <h4>Marketing</h4>
             <img src="./assets/img/course-marketing.jpg" alt="">
             <p>COURSES</p>
@@ -177,33 +178,52 @@
       </div>
 
       <!-- Thesis Section-->
-      <div id="thesis" class="section">
+      <div id="thesis" class="section stack">
 
+        <!-- Thesis Main-->
         <h1>Thesis exhibit</h1>
-        <div class="">
-          <div class="img-container">
-            <img src="./assets/img/banner.jpg" alt="">
-          </div>
+        <div class="section">
+          <div class="">
 
-          <h4>Reimagine urban</h4>
-          <p class="quote">"Curabitur vitae libero in ipsum porttitor
-            consequat. Aliquam et commodo lectus, nec consequat neque.
-            Sed non accumsan urna. Phasellus sed consequat ex. Etium eget
-            magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            <div class="img-container">
+              <img src="./assets/img/banner.jpg" alt="">
+            </div>
+
+            <h4>Reimagine urban</h4>
+            <p class="quote">"Curabitur vitae libero in ipsum porttitor
+              consequat. Aliquam et commodo lectus, nec consequat neque.
+              Sed non accumsan urna. Phasellus sed consequat ex. Etium eget
+              magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+
+          </div>
+          <!-- Thesis Info-->
+          <div class="card-stack">
+
+            <div class="card">
+              <div class="img-container">
+                <img src="./assets/img/thesis-fisma.jpg" alt="">
+              </div>
+              <div class="">
+                <h4>Fisma: Design and</h4>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="img-container">
+                <img src="./assets/img/thesis-now-and-then.jpg" alt="">
+              </div>
+              <div class="">
+                <h4>Now and then</h4>
+                <p>Research study about New York</p>
+              </div>
+            </div>
+
+          </div>
         </div>
 
-        <div class="">
-          <div class="">
-            <img src="./assets/img/thesis-fisma.jpg" alt="">
-            <h4>Fisma: Design and</h4>
-            <p>Designer showcase of new prototype product</p>
-          </div>
-          <div class="">
-            <img src="./assets/img/thesis-now-and-then.jpg" alt="">
-            <h4>Now and then</h4>
-            <p>Research study about New York</p>
-          </div>
-        </div>
+
+
 
       </div>
 
@@ -211,7 +231,7 @@
 
     <!-- Footer -->
     <footer>
-      <span class="copyright">©2016 Colmar Academy. All rights reserved</span>
+      <p>©2016 Colmar Academy. All rights reserved</p>
       <ul class="desktop-only">
         <li><a href="#">Terms</a></li>
         <li><a href="#">Privacy</a></li>
