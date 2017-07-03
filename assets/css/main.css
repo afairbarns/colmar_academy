@@ -144,6 +144,11 @@ nav a {
   overflow: hidden;
 }
 
+video {
+  display: block;
+  max-width: 100%;
+}
+
 
 .quote {
   font-style: italic;
@@ -305,6 +310,6 @@ footer {
     min-width: 100%;
     max-width: 100%;
     background-color: #D3D3D3;
-    
   }
+
 }
