@@ -18,6 +18,9 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+p {
+  color: gray;
+}
 ul {
   list-style-type: none;
 }
@@ -42,6 +45,14 @@ a {
 
 .bg-medium {
   background-color: #E8E8E8;
+}
+
+.card h4, .card p {
+  margin: .5rem 0;
+}
+
+.card a {
+  color: blue;
 }
 
 /* Header */
@@ -128,6 +139,7 @@ nav a {
   max-width: 100%;
   overflow: hidden;
 }
+
 
 .quote {
   font-style: italic;
@@ -242,6 +254,10 @@ footer {
     overflow: hidden;
     justify-content: center;
     height: auto;
+  }
+
+  .card-info {
+    margin: 0 1rem;
   }
 
   #learn {
