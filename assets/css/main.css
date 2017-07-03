@@ -47,7 +47,7 @@ a {
   background-color: #E8E8E8;
 }
 
-.card h4, .card p {
+.card h3, .card p {
   margin: .5rem 0;
 }
 
@@ -186,7 +186,10 @@ nav a {
   display: flex;
   flex-direction: column;
   max-width: 30%;
+  background-color: white;
+  margin: 2rem 1rem;
 }
+
 .card-grid .img-container {
   margin: 0;
 }
@@ -240,6 +243,10 @@ footer {
     flex-direction: column;
   }
 
+  #information .card {
+    background-color: inherit;
+  }
+
   .card-stack .card {
     display:block;
     height: auto;
@@ -247,6 +254,7 @@ footer {
     max-width: 100%;
     padding: 0;
   }
+
 
   .card-stack .img-container {
     max-width: 100%;
