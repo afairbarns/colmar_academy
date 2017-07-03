@@ -88,6 +88,17 @@ nav a {
   padding-top: 4rem; /* To offset for fixed header. */
 }
 
+.info {
+  margin: 1rem;
+}
+
+#information h1 {
+  margin-bottom: 1.5rem;
+}
+.main-content h1 {
+  margin: 2rem 0;
+}
+
 .section {
   display: flex;
 }
