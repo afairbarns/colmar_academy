@@ -92,7 +92,11 @@ nav a {
   display: flex;
 }
 
- .img-container img {
+.img-container {
+  margin: 2rem 1.5rem;
+}
+
+.img-container img {
   display: block;
   max-width: 100%;
   overflow: hidden;
@@ -126,6 +130,7 @@ nav a {
   max-width: 35%;
   min-width: 35%;
   height: auto;
+  margin: 1rem;
 }
 
 .card-grid {
@@ -138,6 +143,9 @@ nav a {
   display: flex;
   flex-direction: column;
   max-width: 30%;
+}
+.card-grid .img-container {
+  margin: 0;
 }
 
 .card-grid .img {
