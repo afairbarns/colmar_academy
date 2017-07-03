@@ -92,6 +92,13 @@ nav a {
   margin: 1rem;
 }
 
+.button {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem 0;
+  min-width: 100%;
+  margin: 1rem 0;
+}
 #information h1 {
   margin-bottom: 1.5rem;
 }
